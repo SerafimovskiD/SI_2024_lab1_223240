@@ -1,0 +1,81 @@
+
+1. SerafimovskiD
+
+2. Nema potreba da ja promenuvam bidejki mi e master
+
+3. Kreiran
+
+4. mkdir SI_2024_lab1_223240
+   cd SI_2024_lab1_223240
+   git init
+
+5. git remote add origin https://github.com/SerafimovskiD/SI_2024_lab1_223240.git
+
+6. echo "Damjan Serafimovski 223240" >> README.md
+   git add README.md
+   git commit -m "Initial commit"
+   git push -u origin master
+
+7. git add --all
+   git commit -m "Add starter code."
+   
+
+8. git push -u origin master
+
+9. git branch bug1
+   git branch bug2
+
+10. git checkout bug1
+
+11. notepad SILab1_1.java
+    git add SILab1_1.java
+    git commit -m "Fix wrong condition in filterOddLengthStrings"
+
+12. git checkout bug2
+
+13. notepad SILab1_2.java
+    git add SILab1_2.java
+    git commit -m "Fix wrong condition in makeBigStringFrom."
+
+14. git checkout bug1
+
+15. notepad SILab1Main.java
+    git add SILab1Main.java
+    git commit -m "Call method filterOddLengthStrings in main class"
+
+16. git checkout bug2
+
+17. notepad SILab1Main.java
+    git add SILab1Main.java
+    git commit -m "Call method makeBigStringFrom in main class."
+
+18. git checkout  master
+    git pull -all
+    git push --all origin
+
+19. git checkout master
+
+20. git merge bug1
+
+21. git push 
+
+22. git checkout bug2
+
+23. git rebase master
+    nano SILab1Main.java -> (go otvaram so nano i go sreduvam konfliktot sto e nastanat)
+    git add SILab1Main.java
+    git rebase --continue
+
+24. git checkout master
+
+25. git merge bug2
+
+26. git push -u origin master
+
+27. git push -u --force origin bug2
+
+28. notepad logs.txt
+    git add logs.txt
+    git commit -m "Final commit"
+
+29. git push
